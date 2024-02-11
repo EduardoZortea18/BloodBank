@@ -1,0 +1,17 @@
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\bin\Debug\net8.0\BloodBank.Infra.deps.json
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\bin\Debug\net8.0\BloodBank.Infra.runtimeconfig.json
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\bin\Debug\net8.0\BloodBank.Infra.dll
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\bin\Debug\net8.0\BloodBank.Infra.pdb
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\bin\Debug\net8.0\BloodBank.Domain.dll
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\bin\Debug\net8.0\BloodBank.Domain.pdb
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\BloodBank.Infra.csproj.AssemblyReference.cache
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\BloodBank.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\BloodBank.Infra.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\BloodBank.Infra.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\BloodBank.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\BloodBank.Infra.csproj.CopyComplete
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\BloodBank.Infra.dll
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\refint\BloodBank.Infra.dll
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\BloodBank.Infra.pdb
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\BloodBank.Infra.genruntimeconfig.cache
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\ref\BloodBank.Infra.dll

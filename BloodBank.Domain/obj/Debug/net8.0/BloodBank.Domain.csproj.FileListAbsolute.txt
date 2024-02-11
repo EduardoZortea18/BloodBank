@@ -1,0 +1,12 @@
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Domain\bin\Debug\net8.0\BloodBank.Domain.deps.json
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Domain\bin\Debug\net8.0\BloodBank.Domain.dll
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Domain\bin\Debug\net8.0\BloodBank.Domain.pdb
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Domain\obj\Debug\net8.0\BloodBank.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Domain\obj\Debug\net8.0\BloodBank.Domain.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Domain\obj\Debug\net8.0\BloodBank.Domain.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Domain\obj\Debug\net8.0\BloodBank.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Domain\obj\Debug\net8.0\BloodBank.Domain.dll
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Domain\obj\Debug\net8.0\refint\BloodBank.Domain.dll
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Domain\obj\Debug\net8.0\BloodBank.Domain.pdb
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Domain\obj\Debug\net8.0\ref\BloodBank.Domain.dll
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Domain\obj\Debug\net8.0\BloodBank.Domain.csproj.AssemblyReference.cache
