@@ -1,8 +1,10 @@
+using BloodBank.Api.Filters;
 using BloodBank.Application.Commands.CreateDonator;
 using BloodBank.Application.Validators;
 using BloodBank.Domain.Repositories;
 using BloodBank.Infra;
 using BloodBank.Infra.Repositories;
+using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -21,6 +23,8 @@ builder.Services.AddTransient<IDonatorRepository, DonatorRepository>();
 
 builder.Services.AddControllers()
     .AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<CreateDonatorCommandValidator>());
+
+builder.Services.AddValidatorsFromAssemblyContaining<ValidationFilter>();
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(typeof(CreateDonatorCommand).Assembly));
 

@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BloodBank.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/donators")]
     [ApiController]
     public class DonatorsController : ControllerBase
     {
@@ -19,12 +19,6 @@ namespace BloodBank.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CreateDonatorCommand command)
         {
-            if (!ModelState.IsValid)
-            {
-                var errorMessages = ModelState.SelectMany(x => x.Value!.Errors).Select(x => x.ErrorMessage).ToList();
-                return BadRequest(errorMessages);
-            }
-
             var result = await _mediator.Send(command);
 
             if (result.HasError)
