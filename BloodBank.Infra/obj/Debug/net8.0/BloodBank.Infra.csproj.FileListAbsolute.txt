@@ -15,3 +15,4 @@ C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debu
 C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\BloodBank.Infra.pdb
 C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\BloodBank.Infra.genruntimeconfig.cache
 C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\ref\BloodBank.Infra.dll
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\BloodBank.Infra.sourcelink.json

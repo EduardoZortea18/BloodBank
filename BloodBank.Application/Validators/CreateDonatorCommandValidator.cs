@@ -32,8 +32,7 @@ namespace BloodBank.Application.Validators
             RuleFor(x => x.BirthDate)
                 .NotNull()
                 .NotEmpty()
-                .GreaterThan(DateTime.MinValue)
-                .Must(IsOfAge);
+                .GreaterThan(DateTime.MinValue);
 
             RuleFor(x => x.Email)
                 .EmailAddress()
@@ -44,7 +43,5 @@ namespace BloodBank.Application.Validators
             RuleFor(x => x.Address)
                 .SetValidator(new AddressValidator());
         }
-
-        private bool IsOfAge(DateTime birthDate) => DateTime.Today.Year - birthDate.Year > 18;
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "g808uZfBPX7pGF4fFsLrhjVas+5ar2kvzrduTLWD54VUQGc1+uhsukAmv2Ly0L5LiFbWFNCEAD+uZfZT1MEFgw==",
+  "dgSpecHash": "9Na75kOeR0ECkbCvY8mgk93RuYuIm641sI8tL+JJ1pqI1SGIUfKFmUjoPWXlI0EbP7PLCN6FZGOg6Ets3oAX/Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank\\BloodBank.Application\\BloodBank.Application.csproj",
   "expectedPackageFiles": [
@@ -19,7 +19,8 @@
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
-    "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Pichau\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

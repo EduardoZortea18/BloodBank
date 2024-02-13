@@ -7,16 +7,11 @@ namespace BloodBank.Infra.Configuration
     {
         public override void ConfigureEntity(EntityTypeBuilder<BloodStock> builder)
         {
-            builder.Property(x => x.Quantity)
-                .IsRequired();
+            builder.Property(x => x.Quantity);
 
-            builder.Property(x => x.BloodType)
-                .HasConversion<string>()
-                .IsRequired();
+            builder.Property(x => x.BloodType);
 
-            builder.Property(x => x.RhFactor)
-                .HasConversion<int>()
-                .IsRequired();
+            builder.Property(x => x.RhFactor);
         }
     }
 }

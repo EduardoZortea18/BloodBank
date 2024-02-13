@@ -1,4 +1,5 @@
 ﻿using BloodBank.Domain.Entities;
+using System.Linq.Expressions;
 
 namespace BloodBank.Domain.Repositories
 {
@@ -6,7 +7,8 @@ namespace BloodBank.Domain.Repositories
     {
         Task Create(T entity);
         Task Update(T entity);
-        Task<T> GetOne(Func<T, bool> expression);
+        Task<T> GetOne(Expression<Func<T, bool>> expression);
+        Task<T> GetOneWithIncludes(Expression<Func<T, bool>> expression, params Expression<Func<T, object>>[] includes);
         Task<List<T>> GetAll();
         Task SaveChangesAsync();
     }

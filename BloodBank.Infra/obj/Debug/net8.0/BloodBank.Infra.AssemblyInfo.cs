@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BloodBank.Infra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0509b9ef78b8dad32ddd9f02515a5273260986c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("BloodBank.Infra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BloodBank.Infra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

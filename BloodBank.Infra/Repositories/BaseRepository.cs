@@ -1,6 +1,8 @@
 ﻿using BloodBank.Domain.Entities;
 using BloodBank.Domain.Repositories;
 using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace BloodBank.Infra.Repositories
 {
@@ -22,8 +24,8 @@ namespace BloodBank.Infra.Repositories
         public async Task<List<T>> GetAll()
             => await _context.Set<T>().ToListAsync();
 
-        public async Task<T> GetOne(Func<T, bool> expression)
-            => await _context.Set<T>().FindAsync(expression);
+        public async Task<T> GetOne(Expression<Func<T, bool>> expression)
+            => await _context.Set<T>().AsNoTracking().Where(expression).FirstOrDefaultAsync();
 
         public async Task Update(T entity)
         {
@@ -34,6 +36,23 @@ namespace BloodBank.Infra.Repositories
         public async Task SaveChangesAsync()
         {
             await _context.SaveChangesAsync();
+        }
+
+        public async Task<T> GetOneWithIncludes(Expression<Func<T, bool>> expression, params Expression<Func<T, object>>[] includes)
+        {
+            var query = SetIncludes(includes);
+            return await query.Where(expression).FirstOrDefaultAsync();
+        }
+
+        private IQueryable<T> SetIncludes(Expression<Func<T, object>>[] includes)
+        {
+            IQueryable<T> query = _context.Set<T>();
+            foreach (var include in includes)
+            {
+                query = query.Include(include);
+            }
+
+            return query;
         }
     }
 }

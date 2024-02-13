@@ -14,5 +14,10 @@ namespace BloodBank.Domain.Entities
             RhFactor = rhFactor;
             Quantity = quantity;
         }
+
+        public void ChangeQuantity(int quantity)
+        {
+            Quantity = quantity;
+        }
     }
 }

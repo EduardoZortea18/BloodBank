@@ -1,8 +1,6 @@
 ﻿using BloodBank.Domain.Entities;
-using BloodBank.Domain.Entities.ValueObjects;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System.Reflection.Emit;
 
 namespace BloodBank.Infra.Configuration
 {
@@ -10,16 +8,13 @@ namespace BloodBank.Infra.Configuration
     {
         public override void ConfigureEntity(EntityTypeBuilder<Donator> builder)
         {
-            builder.Property(x => x.BloodType)
-                .HasConversion<string>()
-                .IsRequired();
+            builder.Property(x => x.BloodType);
 
-            builder.Property(x => x.RhFactor)
-                .HasConversion<int>()
-                .IsRequired();
+            builder.Property(x => x.RhFactor);
 
             builder.Property(x => x.BirthDate)
-                .IsRequired();
+                .IsRequired()
+                .HasColumnType("date");
 
             builder.Property(x => x.FullName)
                 .HasMaxLength(50)
@@ -32,9 +27,7 @@ namespace BloodBank.Infra.Configuration
             builder.Property(x => x.Weight)
                 .IsRequired();
 
-            builder.Property(x => x.Gender)
-                .HasConversion<string>()
-                .IsRequired();
+            builder.Property(x => x.Gender);
 
             builder.OwnsOne(x => x.Address)
                 .Property(x => x.City)

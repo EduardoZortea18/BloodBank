@@ -13,3 +13,4 @@ C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Application\bi
 C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Application\bin\Debug\net8.0\BloodBank.Domain.pdb
 C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Application\obj\Debug\net8.0\BloodBank.Application.csproj.AssemblyReference.cache
 C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Application\obj\Debug\net8.0\BloodBank.Application.csproj.CopyComplete
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Application\obj\Debug\net8.0\BloodBank.Application.sourcelink.json

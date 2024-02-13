@@ -115,3 +115,5 @@ C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Api\bin\Debug\
 C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Api\bin\Debug\net8.0\MediatR.Contracts.dll
 C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Api\bin\Debug\net8.0\BloodBank.Application.dll
 C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Api\bin\Debug\net8.0\BloodBank.Application.pdb
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Api\obj\Debug\net8.0\BloodBank.Api.sourcelink.json
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Api\bin\Debug\net8.0\Newtonsoft.Json.dll

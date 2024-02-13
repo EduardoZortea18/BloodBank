@@ -1,4 +1,5 @@
 ﻿using BloodBank.Application.Commands.CreateDonator;
+using BloodBank.Application.Queries.GetDonator;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -24,9 +25,27 @@ namespace BloodBank.Api.Controllers
                 return BadRequest(errorMessages);
             }
 
-            var id = await _mediator.Send(command);
+            var result = await _mediator.Send(command);
 
-            return CreatedAtAction(string.Empty, new { Id = id }, command);
+            if (result.HasError)
+            {
+                return BadRequest(result.ErrorMessage);
+            }
+
+            return CreatedAtAction(nameof(Get), new { Id = result.Data }, command);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get([FromRoute] int id)
+        {
+            var response = await _mediator.Send(new GetDonatorQuery(id));
+
+            if (response.HasError)
+            {
+                return NotFound();
+            }
+
+            return Ok(response);
         }
     }
 }

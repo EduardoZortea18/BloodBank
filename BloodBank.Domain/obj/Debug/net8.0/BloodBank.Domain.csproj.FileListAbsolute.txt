@@ -10,3 +10,4 @@ C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Domain\obj\Deb
 C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Domain\obj\Debug\net8.0\BloodBank.Domain.pdb
 C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Domain\obj\Debug\net8.0\ref\BloodBank.Domain.dll
 C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Domain\obj\Debug\net8.0\BloodBank.Domain.csproj.AssemblyReference.cache
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Domain\obj\Debug\net8.0\BloodBank.Domain.sourcelink.json

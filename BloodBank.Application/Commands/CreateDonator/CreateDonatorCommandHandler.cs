@@ -21,11 +21,11 @@ namespace BloodBank.Application.Commands.CreateDonator
 
         public async Task<Result<int>> Handle(CreateDonatorCommand command, CancellationToken cancellationToken)
         {
-            var existingDonator = await _repository.GetOne(x => x.Email == command.Email);
+            var existingDonator = await _repository.GetOne(x => string.Equals(x.Email, command.Email));
 
             if (existingDonator != null)
             {
-                return new Result<int>(true, "A record with this email already exists");
+                return new Result<int>("A record with this email already exists", true);
             }
 
             var fullAdress = await GetAddress(command.Address.ZipCode);
@@ -45,7 +45,22 @@ namespace BloodBank.Application.Commands.CreateDonator
                 .AppendPathSegment(RESPONSE_FORMAT)
                 .GetJsonAsync<FullAddressResponseModel>();
 
-            return new Address(response.Logradouro, response.Localidade, response.Uf, response.Cep);
+            return !HasNullProperties(response)
+                ? new Address(response.Logradouro, response.Localidade, response.Uf, response.Cep)
+                : throw new ArgumentNullException("Null values from response");
+        }
+
+        public static bool HasNullProperties<T>(T obj)
+        {
+            foreach (var property in typeof(T).GetProperties())
+            {
+                if (property.GetValue(obj) == null)
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
 
         private Donator CreateNewDonatorEntity(CreateDonatorCommand command, Address address)

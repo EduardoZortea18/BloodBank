@@ -13,10 +13,10 @@
             ErrorMessage = errorMessage;
         }
 
-        public Result(bool hasError, string errorMessage)
+        public Result(string errorMessage, bool hasError)
         {
-            HasError = hasError;
             ErrorMessage = errorMessage;
+            HasError = hasError;
         }
     }
 }
