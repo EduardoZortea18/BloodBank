@@ -17,18 +17,6 @@ namespace BloodBank.Application.Validators
                 .NotNull()
                 .NotEmpty();
 
-            RuleFor(x => x.RhFactor)
-                .NotNull()
-                .NotEmpty();
-
-            RuleFor(x => x.Gender)
-                .NotNull()
-                .NotEmpty();
-
-            RuleFor(x => x.BloodType)
-                .NotNull()
-                .NotEmpty();
-
             RuleFor(x => x.BirthDate)
                 .NotNull()
                 .NotEmpty()

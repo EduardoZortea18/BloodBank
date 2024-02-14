@@ -2,7 +2,6 @@
 using BloodBank.Domain.Repositories;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace BloodBank.Infra.Repositories
 {
@@ -27,7 +26,7 @@ namespace BloodBank.Infra.Repositories
         public async Task<T> GetOne(Expression<Func<T, bool>> expression)
             => await _context.Set<T>().AsNoTracking().Where(expression).FirstOrDefaultAsync();
 
-        public async Task Update(T entity)
+        public async virtual Task Update(T entity)
         {
             _context.Set<T>().Update(entity);
             await SaveChangesAsync();

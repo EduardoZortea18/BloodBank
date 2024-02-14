@@ -1,6 +1,7 @@
 using BloodBank.Api.Filters;
 using BloodBank.Application.Commands.CreateDonator;
 using BloodBank.Application.Validators;
+using BloodBank.Domain.Events;
 using BloodBank.Domain.Repositories;
 using BloodBank.Infra;
 using BloodBank.Infra.Repositories;

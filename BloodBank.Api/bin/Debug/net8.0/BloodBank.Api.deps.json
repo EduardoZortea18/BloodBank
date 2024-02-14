@@ -724,6 +724,7 @@
       },
       "BloodBank.Domain/1.0.0": {
         "dependencies": {
+          "MediatR": "12.2.0",
           "Microsoft.EntityFrameworkCore": "8.0.1",
           "Microsoft.EntityFrameworkCore.Abstractions": "8.0.1"
         },

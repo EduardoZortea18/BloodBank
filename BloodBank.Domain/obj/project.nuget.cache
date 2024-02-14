@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Ym5CC2dIwUCIwqFr8IjcDWGeMwCPXD/hZYnl3bjYKD3vA+fi4Qbau/tw9IPpxnw78U5dLTHOTiEmZvPRGEpgWw==",
+  "dgSpecHash": "DmAC28cT+sY1zufgw7AKAg18+d0XHopLge3Qy9HWxXQmrBiYFrJUAra1ZvJ/SF4b1lrl/xhEypx61FcvYSmz+w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank\\BloodBank.Domain\\BloodBank.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Pichau\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\Pichau\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.1\\microsoft.entityframeworkcore.8.0.1.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.1\\microsoft.entityframeworkcore.abstractions.8.0.1.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.1\\microsoft.entityframeworkcore.analyzers.8.0.1.nupkg.sha512",

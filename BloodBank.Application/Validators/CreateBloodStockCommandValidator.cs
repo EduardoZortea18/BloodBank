@@ -7,15 +7,7 @@ namespace BloodBank.Application.Validators
     {
         public CreateBloodStockCommandValidator()
         {
-            RuleFor(x => x.RhFactor)
-                .NotEmpty()
-                .NotNull();
-
             RuleFor(x => x.Quantity)
-                .NotEmpty()
-                .NotNull();
-
-            RuleFor(x => x.BloodType)
                 .NotEmpty()
                 .NotNull();
 

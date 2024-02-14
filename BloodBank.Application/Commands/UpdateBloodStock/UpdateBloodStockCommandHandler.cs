@@ -1,9 +1,9 @@
 ﻿using BloodBank.Application.Models;
 using BloodBank.Application.Validators;
 using BloodBank.Domain.Entities;
+using BloodBank.Domain.Events;
 using BloodBank.Domain.Repositories;
 using MediatR;
-using System.Threading;
 
 namespace BloodBank.Application.Commands.UpdateBloodStock
 {
@@ -11,6 +11,8 @@ namespace BloodBank.Application.Commands.UpdateBloodStock
     {
         private readonly IBloodStockRepository _bloodStockRepository;
         private readonly UpdateBloodStockCommandValidator _validator;
+
+        private const int MININUM_LEVEL = 400;
 
         public UpdateBloodStockCommandHandler(IBloodStockRepository bloodStockRepository)
         {
@@ -35,6 +37,13 @@ namespace BloodBank.Application.Commands.UpdateBloodStock
             }
 
             bloodStock.ChangeQuantity(bloodStock.Quantity + command.Quantity);
+
+
+            if (bloodStock.Quantity < MININUM_LEVEL)
+            {
+                var bloodStockLevelEvent = new BloodStockLevelEvent(bloodStock.Id, bloodStock.BloodType, bloodStock.RhFactor);
+                bloodStock.AddDomainEvent(bloodStockLevelEvent);
+            }
 
             await _bloodStockRepository.Update(bloodStock);
 

@@ -83,9 +83,9 @@ namespace BloodBank.Application.Commands.CreateDonation
         }
 
         private bool IsMaleDonationValid(DateTime lastDonationDate)
-          => DateTime.Today.DayOfYear - lastDonationDate.DayOfYear > MINIMUN_MALE_DONATION_PERIOD;
+          => (DateTime.UtcNow - lastDonationDate).TotalDays > MINIMUN_MALE_DONATION_PERIOD;
 
         private bool IsFemaleDonationValid(DateTime lastDonationDate)
-           => DateTime.Today.DayOfYear - lastDonationDate.DayOfYear > MINIMUN_FEMALE_DONATION_PERIOD;
+           => (DateTime.UtcNow - lastDonationDate).TotalDays > MINIMUN_FEMALE_DONATION_PERIOD;
     }
 }

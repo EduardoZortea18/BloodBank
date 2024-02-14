@@ -1,5 +1,6 @@
 ﻿using BloodBank.Application.Commands.CreateDonator;
 using BloodBank.Application.Queries.GetDonator;
+using BloodBank.Application.Queries.GetDonatorHistory;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -36,7 +37,20 @@ namespace BloodBank.Api.Controllers
 
             if (response.HasError)
             {
-                return NotFound();
+                return NotFound(response.ErrorMessage);
+            }
+
+            return Ok(response);
+        }
+
+        [HttpGet("{id}/donation-history")]
+        public async Task<IActionResult> GetHistory([FromRoute] int id)
+        {
+            var response = await _mediator.Send(new GetDonationHistoryQuery(id));
+
+            if (response.HasError)
+            {
+                return NotFound(response.ErrorMessage);
             }
 
             return Ok(response);

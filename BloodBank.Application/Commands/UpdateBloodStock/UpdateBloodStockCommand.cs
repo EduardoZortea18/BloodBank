@@ -17,6 +17,7 @@ namespace BloodBank.Application.Commands.UpdateBloodStock
             BloodType = bloodType;
             RhFactor = rhFactor;
             Quantity = quantity;
+            Id = id;
         }
     }
 }
