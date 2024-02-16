@@ -1,11 +1,10 @@
 ﻿using BloodBank.Application.Models;
 using BloodBank.Domain.Enums;
 using MediatR;
-using System.Text;
 
 namespace BloodBank.Application.Queries.GetBloodStokReport
 {
-    public class GetBloodStockReportQuery : IRequest<Result<StringBuilder>>
+    public class GetBloodStockReportQuery : IRequest<Result<string>>
     {
         public BloodType BloodType { get; private set; }
 

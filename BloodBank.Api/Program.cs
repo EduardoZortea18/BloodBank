@@ -1,33 +1,19 @@
 using BloodBank.Api.Filters;
-using BloodBank.Application.Commands.CreateDonator;
 using BloodBank.Application.Validators;
-using BloodBank.Domain.Events;
-using BloodBank.Domain.Repositories;
-using BloodBank.Infra;
-using BloodBank.Infra.Repositories;
+using BloodBank.Ioc;
 using FluentValidation;
 using FluentValidation.AspNetCore;
-using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var connectionString = builder.Configuration.GetConnectionString("Database");
-
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
-
-builder.Services.AddDbContext<BloodBankContext>(opts => opts.UseNpgsql(connectionString));
-
-builder.Services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
-builder.Services.AddTransient<IBloodStockRepository, BloodStockRepository>();
-builder.Services.AddTransient<IDonationRepository, DonationRepository>();
-builder.Services.AddTransient<IDonatorRepository, DonatorRepository>();
-
-builder.Services.AddControllers()
-    .AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<CreateDonatorCommandValidator>());
 
 builder.Services.AddValidatorsFromAssemblyContaining<ValidationFilter>();
 
-builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(typeof(CreateDonatorCommand).Assembly));
+builder.Services.ConfigureInjection(builder.Configuration);
+
+builder.Services.AddControllers()
+    .AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<CreateDonatorCommandValidator>());
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

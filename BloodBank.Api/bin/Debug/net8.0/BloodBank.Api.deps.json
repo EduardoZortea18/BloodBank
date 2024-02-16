@@ -10,6 +10,7 @@
         "dependencies": {
           "BloodBank.Application": "1.0.0",
           "BloodBank.Infra": "1.0.0",
+          "BloodBank.Ioc": "1.0.0",
           "FluentValidation": "11.9.0",
           "FluentValidation.AspNetCore": "11.3.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.1",
@@ -770,6 +771,16 @@
         "runtime": {
           "BloodBank.Infra.dll": {}
         }
+      },
+      "BloodBank.Ioc/1.0.0": {
+        "dependencies": {
+          "BloodBank.Application": "1.0.0",
+          "BloodBank.Infra": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "BloodBank.Ioc.dll": {}
+        }
       }
     }
   },
@@ -1287,6 +1298,11 @@
       "sha512": ""
     },
     "BloodBank.Infra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BloodBank.Ioc/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

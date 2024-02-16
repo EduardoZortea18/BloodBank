@@ -10,7 +10,7 @@ namespace BloodBank.Domain.Repositories
         Task<T> GetOne(Expression<Func<T, bool>> expression);
         Task<T> GetOneWithIncludes(Expression<Func<T, bool>> expression, params Expression<Func<T, object>>[] includes);
         Task<List<T>> GetAll();
-        Task<List<T>> GetAllWithFilters(Expression<Func<T, bool>> expression);
+        Task<List<T>> GetAllWithFilters(Expression<Func<T, bool>> expression, params Expression<Func<T, object>>[] includes);
         Task SaveChangesAsync();
     }
 }

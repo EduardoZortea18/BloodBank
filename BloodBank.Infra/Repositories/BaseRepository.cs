@@ -40,11 +40,14 @@ namespace BloodBank.Infra.Repositories
         public async Task<T> GetOneWithIncludes(Expression<Func<T, bool>> expression, params Expression<Func<T, object>>[] includes)
         {
             var query = SetIncludes(includes);
-            return await query.Where(expression).FirstOrDefaultAsync();
+            return await query.AsNoTracking().Where(expression).FirstOrDefaultAsync();
         }
 
-        public async Task<List<T>> GetAllWithFilters(Expression<Func<T, bool>> expression)
-           => await _context.Set<T>().AsNoTracking().Where(expression).ToListAsync();
+        public async Task<List<T>> GetAllWithFilters(Expression<Func<T, bool>> expression, params Expression<Func<T, object>>[] includes)
+        {
+            var query = SetIncludes(includes);
+            return await query.AsNoTracking().Where(expression).ToListAsync();
+        }
 
         private IQueryable<T> SetIncludes(Expression<Func<T, object>>[] includes)
         {

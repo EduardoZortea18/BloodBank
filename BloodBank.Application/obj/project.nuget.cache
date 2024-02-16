@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "fEdkjF3XNU7PbO7zEzOyR6ze9ox25hHqW9gEiMpi8AO/CWBT0htFrwxMMmzWl3hZoLQvUqBEBwwFjzcITW9k9A==",
+  "dgSpecHash": "HbWbTCD0jbe88n3+6vnLu3qcOcoVFnyYKTYVUqpys63tyD7NGytGMAaPns/RzNu+4Lqv8+glgaz+LeN0d0J/vg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank\\BloodBank.Application\\BloodBank.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Pichau\\.nuget\\packages\\csvhelper\\31.0.0\\csvhelper.31.0.0.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\flurl\\4.0.0\\flurl.4.0.0.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\flurl.http\\4.0.2\\flurl.http.4.0.2.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.1\\microsoft.entityframeworkcore.8.0.1.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.1\\microsoft.entityframeworkcore.abstractions.8.0.1.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.1\\microsoft.entityframeworkcore.analyzers.8.0.1.nupkg.sha512",
@@ -20,7 +22,9 @@
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
-    "C:\\Users\\Pichau\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\Pichau\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Pichau\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
+    "C:\\Users\\Pichau\\.nuget\\packages\\system.linq.async\\4.0.0\\system.linq.async.4.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -34,7 +34,7 @@ namespace BloodBank.Api.Controllers
         public async Task<IActionResult> GetReport([FromQuery] BloodType type)
         {
             var result = await _mediator.Send(new GetBloodStockReportQuery(type));
-            return Content(result.Data.ToString(), "text/csv");
+            return Content(result.Data, "text/csv");
         }
     }
 }

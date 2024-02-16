@@ -1,5 +1,8 @@
 ﻿using BloodBank.Application.Commands.CreateDonation;
+using BloodBank.Application.Queries.GetBloodStokReport;
 using BloodBank.Application.Queries.GetDonation;
+using BloodBank.Application.Queries.GetDonationsReport;
+using BloodBank.Domain.Enums;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -40,6 +43,13 @@ namespace BloodBank.Api.Controllers
             }
 
             return Ok(response);
+        }
+
+        [HttpGet("report")]
+        public async Task<IActionResult> GetReport()
+        {
+            var result = await _mediator.Send(new GetDonationReportQuery());
+            return Content(result.Data, "text/csv");
         }
     }
 }

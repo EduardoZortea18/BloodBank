@@ -9,10 +9,10 @@ C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debu
 C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\BloodBank.Infra.AssemblyInfoInputs.cache
 C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\BloodBank.Infra.AssemblyInfo.cs
 C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\BloodBank.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\BloodBank.Infra.sourcelink.json
 C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\BloodBank.Infra.csproj.CopyComplete
 C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\BloodBank.Infra.dll
 C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\refint\BloodBank.Infra.dll
 C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\BloodBank.Infra.pdb
 C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\BloodBank.Infra.genruntimeconfig.cache
 C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\ref\BloodBank.Infra.dll
-C:\Users\Pichau\Desktop\NewProjects\BloodBank\BloodBank\BloodBank.Infra\obj\Debug\net8.0\BloodBank.Infra.sourcelink.json

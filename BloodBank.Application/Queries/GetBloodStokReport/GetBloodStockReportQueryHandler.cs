@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BloodBank.Application.Queries.GetBloodStokReport
 {
-    public class GetBloodStockReportQueryHandler : IRequestHandler<GetBloodStockReportQuery, Result<StringBuilder>>
+    public class GetBloodStockReportQueryHandler : IRequestHandler<GetBloodStockReportQuery, Result<string>>
     {
         private readonly IBloodStockRepository _repository;
 
@@ -14,7 +14,7 @@ namespace BloodBank.Application.Queries.GetBloodStokReport
             _repository = repository;
         }
 
-        public async Task<Result<StringBuilder>> Handle(GetBloodStockReportQuery query, CancellationToken cancellationToken)
+        public async Task<Result<string>> Handle(GetBloodStockReportQuery query, CancellationToken cancellationToken)
         {
             var bloodStocks = await _repository.GetAllWithFilters(x => x.BloodType == query.BloodType);
             var sb = new StringBuilder();
@@ -25,7 +25,7 @@ namespace BloodBank.Application.Queries.GetBloodStokReport
                 sb.AppendLine($"{item.Id};{item.BloodType.ToString()};{item.RhFactor}");
             }
 
-            return new Result<StringBuilder>(sb, string.Empty);
+            return new Result<string>(sb.ToString(), string.Empty);
         }
     }
 }
