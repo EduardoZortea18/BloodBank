@@ -43,6 +43,9 @@ namespace BloodBank.Infra.Repositories
             return await query.Where(expression).FirstOrDefaultAsync();
         }
 
+        public async Task<List<T>> GetAllWithFilters(Expression<Func<T, bool>> expression)
+           => await _context.Set<T>().AsNoTracking().Where(expression).ToListAsync();
+
         private IQueryable<T> SetIncludes(Expression<Func<T, object>>[] includes)
         {
             IQueryable<T> query = _context.Set<T>();

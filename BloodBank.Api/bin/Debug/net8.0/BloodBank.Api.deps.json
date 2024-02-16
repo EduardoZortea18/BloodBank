@@ -20,6 +20,17 @@
           "BloodBank.Api.dll": {}
         }
       },
+      "CsvHelper/31.0.0": {
+        "dependencies": {
+          "System.Linq.Async": "4.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/CsvHelper.dll": {
+            "assemblyVersion": "31.0.0.0",
+            "fileVersion": "31.0.0.12"
+          }
+        }
+      },
       "FluentValidation/11.9.0": {
         "runtime": {
           "lib/net8.0/FluentValidation.dll": {
@@ -97,6 +108,12 @@
             "assemblyVersion": "2.0.1.0",
             "fileVersion": "2.0.1.0"
           }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/5.0.17": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0",
+          "System.IO.Pipelines": "6.0.3"
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
@@ -640,6 +657,14 @@
           "System.Runtime.Extensions": "4.3.0"
         }
       },
+      "System.Linq.Async/4.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.Linq.Async.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.2"
+          }
+        }
+      },
       "System.Reflection/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -713,9 +738,11 @@
       "BloodBank.Application/1.0.0": {
         "dependencies": {
           "BloodBank.Domain": "1.0.0",
+          "CsvHelper": "31.0.0",
           "FluentValidation": "11.9.0",
           "Flurl.Http": "4.0.2",
           "MediatR": "12.2.0",
+          "Microsoft.AspNetCore.Http.Features": "5.0.17",
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
@@ -751,6 +778,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "CsvHelper/31.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PypRJq7AugnCJjq6Zu5EqFDTfRv7Gh+MtSH2T/kwiGmg1UHAflq4cE8j3uMkvXSxaayVtcwi+8hC0w+30YzzWA==",
+      "path": "csvhelper/31.0.0",
+      "hashPath": "csvhelper.31.0.0.nupkg.sha512"
     },
     "FluentValidation/11.9.0": {
       "type": "package",
@@ -807,6 +841,13 @@
       "sha512": "sha512-FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
       "path": "mediatr.contracts/2.0.1",
       "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/5.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3jG2xS+dx8DDCGV/F+STdPTg89lX3ao3dF/VEPvJaz3wzBIjuadipTtYNEXDIVuOPZwb6jdmhrX9jkzOIBm5cw==",
+      "path": "microsoft.aspnetcore.http.features/5.0.17",
+      "hashPath": "microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
       "type": "package",
@@ -1136,6 +1177,13 @@
       "sha512": "sha512-5DbqIUpsDp0dFftytzuMmc0oeMdQwjcP/EWxsksIz/w1TcFRkZ3yKKz0PqiYFMmEwPSWw+qNVqD7PJ889JzHbw==",
       "path": "system.linq/4.3.0",
       "hashPath": "system.linq.4.3.0.nupkg.sha512"
+    },
+    "System.Linq.Async/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WbiYEedFZeM+psmMyoCt1AKbZppAZg8Eq1ZTQ+521fGNeXqlgJj0tZYV5n1LsKRO5osQuitYxGNuzPTy3213sg==",
+      "path": "system.linq.async/4.0.0",
+      "hashPath": "system.linq.async.4.0.0.nupkg.sha512"
     },
     "System.Reflection/4.3.0": {
       "type": "package",
