@@ -1,6 +1,5 @@
 using BloodBank.Api.Filters;
 using BloodBank.Application.Validators;
-using BloodBank.Ioc;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 

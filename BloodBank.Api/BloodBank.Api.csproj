@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -22,7 +22,6 @@
   <ItemGroup>
     <ProjectReference Include="..\BloodBank.Application\BloodBank.Application.csproj" />
     <ProjectReference Include="..\BloodBank.Infra\BloodBank.Infra.csproj" />
-    <ProjectReference Include="..\BloodBank.Ioc\BloodBank.Ioc.csproj" />
   </ItemGroup>
 
 </Project>
