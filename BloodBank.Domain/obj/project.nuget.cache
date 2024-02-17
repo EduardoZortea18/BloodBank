@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DmAC28cT+sY1zufgw7AKAg18+d0XHopLge3Qy9HWxXQmrBiYFrJUAra1ZvJ/SF4b1lrl/xhEypx61FcvYSmz+w==",
+  "dgSpecHash": "EzSjP9Oa+g1RI5RH8tzduKEoR+FET7rUvv0GQpJ8piwLZGOfdy2Njf2bSLDtzJJUbXXYSaJvofVbgFVk2rJPRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank\\BloodBank.Domain\\BloodBank.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank.Domain\\BloodBank.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pichau\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

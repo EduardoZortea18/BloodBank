@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V1ZInxrC5uUVkvk8kJiXn3ORjeClH+F++cTEhY/eS+LC/TN9pPei14MULa2gstywwjdG4mffdVCT4S0HNXlpKg==",
+  "dgSpecHash": "0+heC/x6a5C+JRNwYUNdtFWyfP2BpYlbHtf9437mC76Po7zGkdC7ZWF7ZzmZpS7hRe9LkwK38UjKEhnaqpwN7A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank\\BloodBank.Infra\\BloodBank.Infra.csproj",
+  "projectFilePath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank.Infra\\BloodBank.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pichau\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",

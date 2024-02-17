@@ -3421,11 +3421,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank\\BloodBank.Infra\\BloodBank.Infra.csproj",
+      "projectUniqueName": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank.Infra\\BloodBank.Infra.csproj",
       "projectName": "BloodBank.Infra",
-      "projectPath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank\\BloodBank.Infra\\BloodBank.Infra.csproj",
+      "projectPath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank.Infra\\BloodBank.Infra.csproj",
       "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank\\BloodBank.Infra\\obj\\",
+      "outputPath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3442,8 +3442,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank\\BloodBank.Domain\\BloodBank.Domain.csproj": {
-              "projectPath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank\\BloodBank.Domain\\BloodBank.Domain.csproj"
+            "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank.Domain\\BloodBank.Domain.csproj": {
+              "projectPath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank.Domain\\BloodBank.Domain.csproj"
             }
           }
         }

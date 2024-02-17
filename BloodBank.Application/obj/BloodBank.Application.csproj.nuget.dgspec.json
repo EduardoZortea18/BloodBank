@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank\\BloodBank.Application\\BloodBank.Application.csproj": {}
+    "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank.Application\\BloodBank.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank\\BloodBank.Application\\BloodBank.Application.csproj": {
+    "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank.Application\\BloodBank.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank\\BloodBank.Application\\BloodBank.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank.Application\\BloodBank.Application.csproj",
         "projectName": "BloodBank.Application",
-        "projectPath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank\\BloodBank.Application\\BloodBank.Application.csproj",
+        "projectPath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank.Application\\BloodBank.Application.csproj",
         "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank\\BloodBank.Application\\obj\\",
+        "outputPath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank\\BloodBank.Domain\\BloodBank.Domain.csproj": {
-                "projectPath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank\\BloodBank.Domain\\BloodBank.Domain.csproj"
+              "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank.Domain\\BloodBank.Domain.csproj": {
+                "projectPath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank.Domain\\BloodBank.Domain.csproj"
               }
             }
           }
@@ -64,9 +64,17 @@
               "target": "Package",
               "version": "[5.0.17, )"
             },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.29.2, )"
             }
           },
           "imports": [
@@ -89,14 +97,14 @@
         }
       }
     },
-    "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank\\BloodBank.Domain\\BloodBank.Domain.csproj": {
+    "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank.Domain\\BloodBank.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank\\BloodBank.Domain\\BloodBank.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank.Domain\\BloodBank.Domain.csproj",
         "projectName": "BloodBank.Domain",
-        "projectPath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank\\BloodBank.Domain\\BloodBank.Domain.csproj",
+        "projectPath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank.Domain\\BloodBank.Domain.csproj",
         "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank\\BloodBank.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\BloodBank\\BloodBank.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
