@@ -50,7 +50,7 @@ namespace BloodBank.Api.Controllers
 
             if (response.HasError)
             {
-                return NotFound(response.ErrorMessage);
+                return BadRequest(response.ErrorMessage);
             }
 
             return Ok(response);

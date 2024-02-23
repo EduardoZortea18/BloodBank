@@ -9,7 +9,8 @@ namespace BloodBank.Infra.Extensions
         {
             var entities = context.ChangeTracker
                 .Entries<BaseEntity>()
-                .Where(x => x.Entity.Events != null && x.Entity.Events.Any());
+                .Where(x => x.Entity.Events.Any())
+                .ToList();
 
             var events = entities
                 .SelectMany(x => x.Entity.Events)

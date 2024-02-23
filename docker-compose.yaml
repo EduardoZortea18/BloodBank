@@ -9,7 +9,7 @@ services:
     container_name: bloodbank
     restart: always
     ports:
-      - "15432:5432"
+      - "16432:5432"
     networks:
       - postgres-compose-network
 networks:
